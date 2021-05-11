@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: #2e2e2e;
+}

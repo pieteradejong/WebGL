@@ -4,7 +4,6 @@ var blue = (0.0, 0.0, 1.0, 1.0);
 
 
 function start() {
-  tween()
   var canvas = document.getElementById("glcanvas");
 
   // Initialize the GL context
@@ -49,15 +48,8 @@ function startTimer() {
 }
 
 function cb() {
-
+  
 }
 
 
-function tween() {
-  var position = { x : 0, y: 300 };
-var target = { x : 400, y: 50 };
-var tween = new TWEEN.Tween(position).to(target, 2000);
 
-
-
-}
